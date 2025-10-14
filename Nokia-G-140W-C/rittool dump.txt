@@ -1,0 +1,46 @@
+[root@AONT: ONTUSER]# ritool dump
+the Format:01
+the MfrID:ALCL
+the Factorycode:08
+the HardwareVersion:3FE47171ABCA
+the ICS:01
+the YPSerialNum:        F88B8D70
+the CleiCode:     00000
+the Mnemonic:G-140W-C
+the ProgDate:181101
+the MACAddress:ec:84:b4:3e:ff:80
+the DeviceIDPref:0000
+the SWImage:005e
+the OnuMode:0003
+the Mnemonic2:
+the Password:00000000000123456789
+the G984Serial:f88b8d70
+the HWConfiguration:0000000000000000
+the PartNumber:3FE47172ABAA
+the Variant:AA
+the Spare4:000000000000000000000000
+the Checksum:27e8
+the InserviceReg:0000
+the UserName:           admin
+the UserPassword:usradmin
+the MgntUserName:      adminadmin
+the MgntUserPassword: ALC#FGU
+the SSID-1Name:Airtel_Zerotouch
+the SSID-1Password:00000000
+the SSID-2Name:0000000000000000
+the SSID-2Password:00000000
+the OperatorID:ALCL
+the SLID:00000000000000000000000000000000
+the CountryID:in
+the Spare5:000000000000
+the Checksum1:f7e3
+the Spare6:0000
+the RollbackFlag:0000
+ProductClass[G-140W-C] Platform[2c] Uplink[GPON] Type[HGU] EthPorts[4] EnetPortType[GE] POTS[1] USB[2] WIFI[2] SIM[0] IsBosa[5] SlicType[LE9641] WifiType[MTK7592MTK7612] JDM[T&W] SOC[MTK_7526G] region:in
+region[9]
+[root@AONT: ONTUSER]#
+
+
+
+
+

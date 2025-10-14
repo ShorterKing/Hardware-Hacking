@@ -1,0 +1,6 @@
+[root@AONT: /webs]# cat /etc/shadow
+root:$1$GTMUOzhf$mjhy6wET5re92IB4KHqXz.:0:0:99999:7:::
+AdminGPON:$1$SeVtbzZN$0VOoPg316.z4cnEwH2eQW/:0:0:99999:7:::
+admin:$1$F/3K.C9V$ZF7rXURaEQsN3103qjHzt0:18179:0:99999:7:::
+ONTUSER:$1$NnE/EEUa$tYAK/dV7BwTWRATyo9EkN1:0:0:99999:7:::
+[root@AONT: /webs]#
