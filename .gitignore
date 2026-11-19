@@ -1,0 +1,18 @@
+# Device configuration and identity data
+**/FirmwareDump/
+**/backup-tataplay*/
+**/config*.cfg
+**/Shadow.txt
+**/rittool dump.txt
+**/mtd.txt
+**/*mtd*.bin
+**/eeprom/*.bin
+
+# Local captures and generated files
+*.log
+*.pcap
+*.pcapng
+__pycache__/
+*.py[cod]
+.DS_Store
+
