@@ -60,7 +60,7 @@ The serial log shows the zImage decompressed, the device tree copied, and Linux 
 
 ## What I did not change
 
-- I did not unlock the second-stage `bldr>` authorization.
+- I did not unlock the second-stage `bldr>` authorization during this RAM-boot work. (Update, 24 November 2026: I later recovered it — the password is derived from the unit's GPON serial, and the computed value opens `bldr>`; see [the `bldr>` password notes](g140wc-bldr-password.md).)
 - I did not write NAND, change boot flags, or use the stock firmware updater.
 - This is a volatile RAM boot. Power cycling returns the router to stock firmware.
 - Update, 24 November 2026: after about nine RAM boots, the bootloader switched to the other stock slot by itself, because the stock firmware never ran to reset its failed-boot count. See [firmware slots and boot flags](g140wc-slots-and-boot-flags.md).
