@@ -63,7 +63,9 @@ The serial log shows the zImage decompressed, the device tree copied, and Linux 
 - I did not unlock the second-stage `bldr>` authorization.
 - I did not write NAND, change boot flags, or use the stock firmware updater.
 - This is a volatile RAM boot. Power cycling returns the router to stock firmware.
+- Update, 24 November 2026: after about nine RAM boots, the bootloader switched to the other stock slot by itself, because the stock firmware never ran to reset its failed-boot count. See [firmware slots and boot flags](g140wc-slots-and-boot-flags.md).
 - I have not verified a permanent install or a safe flash procedure for this Tata Play unit. I do not copy the ACTFiber unit's NAND or boot-flag assumptions to it.
+- Update, 24 November 2026: after checking the flash against my backup and test-booting slot B, I installed OpenWrt to slot A, and this unit's locked second stage boots it. See [firmware slots and boot flags](g140wc-slots-and-boot-flags.md).
 
 ## My records
 
